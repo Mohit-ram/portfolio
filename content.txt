@@ -1,0 +1,11 @@
+Font:
+Roboto, Open Sans, Montserrat, proxima novo
+
+color pallet:
+
+    primary: 1E0342
+    secondary: 0E46A3
+    territiary: 9AC8CD
+    quartenary: E1F7F5
+
+    
