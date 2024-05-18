@@ -32,7 +32,7 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#Blog">
+              <a className="nav-link" aria-current="page" target='_blank' href="https://mohit-ram.github.io/my-blog/">
                 Blog <i className="bi bi-box-arrow-up-right"></i>
               </a>
             </li>
