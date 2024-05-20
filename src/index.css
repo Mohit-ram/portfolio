@@ -1,8 +1,16 @@
+/*
+color theme
+#EEF5FF
+#B4D4FF
+#86B6F6
+#176B87
+*/
+
 body {
      font-family: "Roboto Condensed", sans-serif;  
     font-optical-sizing: auto;            
     font-style: normal;
-    background-color:#dff4f5;
+    background-color: #EEF5FF;
 }
 #hero-section {
     /* background-image: url("../src/assets/images/bagimage_05.jpg") !important; 
@@ -20,7 +28,8 @@ body {
 }
 .section-head{
     color: #210447;
+    /* color: #0b2746; */
 }
 .footer{
-    background-color: #dbf9fd !important;
+    background-color: #86B6F6!important;
 }

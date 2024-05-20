@@ -1,12 +1,12 @@
 import React from "react";
 import Navbar from "./Navbar";
-import bgimg from "../../assets/images/bagimage_05.jpg"
+import bgimg from "../../assets/images/heroImg01.jpg"
 const Hero = () => {
   return (
     <section id="hero-section" style={{backgroundImage:`url(${bgimg})`}} >
       <Navbar />
 
-      <div className="px-4 py-5 my-5 text-center">
+      <div className="px-4 py-4 my-5 text-center ">
         <h1 className="section-head display-5 fw-bold  ">
           Hi! <br />
           This is Mohit
