@@ -1,6 +1,6 @@
 import React from "react";
 import BlogCard from "./BlogCard";
-import image from "../../assets/images/solid_sample_gray.jpg";
+
 import projectsInfo from "../../assets/projectInfo/projectsinfo.js";
 
 const Blog = () => {
