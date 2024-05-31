@@ -15,10 +15,10 @@ const Blog = () => {
       <div className="container mt-4 pb-5">
         <div className="row">
           <BlogCard
-            key={projectsInfo[0].Id}
-            image={projectsInfo[0].imgPath}
-            title={projectsInfo[0].title}
-            content={projectsInfo[0].info}
+            key={projectsInfo[3].Id}
+            image={projectsInfo[3].imgPath}
+            title={projectsInfo[3].title}
+            content={projectsInfo[3].info}
           />
           <BlogCard
             key={projectsInfo[1].Id}
@@ -27,10 +27,10 @@ const Blog = () => {
             content={projectsInfo[1].info}
           />
           <BlogCard
-            key={projectsInfo[1].Id}
-            image={projectsInfo[1].imgPath}
-            title={projectsInfo[1].title}
-            content={projectsInfo[1].info}
+            key={projectsInfo[2].Id}
+            image={projectsInfo[2].imgPath}
+            title={projectsInfo[2].title}
+            content={projectsInfo[2].info}
           />
         </div>
       </div>

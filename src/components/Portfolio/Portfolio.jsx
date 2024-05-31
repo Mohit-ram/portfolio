@@ -21,17 +21,17 @@ const Portfolio = () => {
         <PortfolioCard
           image={projectsInfo[1].imgPath}
           text={projectsInfo[1].title}
-          number={projectsInfo[0].number}
+          number={projectsInfo[1].number}
         />
         <PortfolioCard
           image={projectsInfo[2].imgPath}
           text={projectsInfo[2].title}
-          number={projectsInfo[0].number}
+          number={projectsInfo[2].number}
         />
         <PortfolioCard
           image={projectsInfo[3].imgPath}
           text={projectsInfo[3].title}
-          number={projectsInfo[0].number}
+          number={projectsInfo[3].number}
         />
       </div>
     </section>

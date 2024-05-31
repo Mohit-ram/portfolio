@@ -6,9 +6,9 @@ const BlogCard = ({image, title, content}) => {
             <div className="card">
               
               <img className="card-img-top img-fluid" style={{height:'300px', maxWidth: '400px'}} src={image} alt="Card image cap" />
-              <div className="card-body">
+              <div className="card-body" >
                 <h5 className="card-title">{title}</h5>
-                <p className="card-text">{content}</p>
+                <p className="card-text " style={{height:'100px', maxWidth: '400px'}}>{content}</p>
                 <a target='_blank' href="https://mohit-ram.github.io/my-blog/" className="btn my-button btn-primary">
                   Go to Blog
                 </a>

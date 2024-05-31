@@ -1,5 +1,8 @@
 import img01 from "./mainImg001.jpg"
 import img02 from "./mainImg002.jpg"
+import img03 from "./mainImg003.png"
+import img04 from "./mainImg004.png"
+import img05 from "./mainImg005.png"
 
 const projectsInfo = [
   {
@@ -13,35 +16,35 @@ const projectsInfo = [
     dataSource: "link",
   },
   {
-    Id: 2,
-    number: "002",
-    title: "Determining the Age of Abalones",
-    info: "Appliying of machine learning techniques to the abalone dataset to predict the age category of abalones based on physical measurements.",
-    subInfo:
-      "Classification, Column Transformer, Confusion matrix, F1 score, support vector machines",
-    imgPath: img02,
-    category: "cat-a",
-    dataSource: "https://archive.ics.uci.edu/dataset/1/abalone",
-  },
-  {
     Id: 3,
-    number: "001",
-    title: "Sample Project Title 3",
-    info: "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    subInfo: "subinfo",
-    imgPath: img01,
-    category: "cat-d",
-    dataSource: "link",
+    number: "003",
+    title: "Handwritten Digit Recognition",
+    info: "Handwritten digit recognition, exploring deep learning techniques from data preprocessing to model architecture and regularization",
+    subInfo:
+      "Multi-class Image classification, CNN, overfitting, Regularisation PerformaceCurves" ,
+    imgPath:img03,
+    category: "cat-b",
+    dataSource: "https://www.kaggle.com/competitions/digit-recognizer",
   },
   {
     Id: 4,
-    number: "001",
-    title: "Sample Project Title 4",
-    info: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
-    subInfo: "subinfo",
-    imgPath: img02,
-    category: "cat-d",
-    dataSource: "link",
+    number: "004",
+    title: "Human or Horse",
+    info: "Appliying transfer learning techniques to the classify humans or horses. ",
+    subInfo: "Inceptionv3, Transfer Learning, layer weights, prefetching",
+    imgPath:img04,
+    category: "cat-b",
+    dataSource: "https://laurencemoroney.com/datasets.html",
+  },
+  {
+    Id: 5,
+    number: "005",
+    title: "Cat or Dog a transfer learning approach",
+    info: "A Inceptionv3 model based classification of cats or dogs in an image. ",
+    subInfo:"Binary Calssification, Transfer Learning, tf datasets, Autotune, ImagesFromDirectories.",
+    imgPath:img05,
+    category: "cat-b",
+    dataSource: "https://www.kaggle.com/c/dogs-vs-cats",
   },
 ];
 
