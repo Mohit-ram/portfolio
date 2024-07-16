@@ -9,7 +9,7 @@ const Portfolio = () => {
       <div className="px-4 pt-5 my-5 text-center">
         <h1 className="display-6 fw-bold  section-head">Best Work</h1>
         <p className="lead">
-        “Below, you’ll find some of my best wprk. Click to learn more.”
+        “Below, you’ll find some of my best work. Click to learn more.”
         </p>
       </div>
       <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 mx-2 mb-5">

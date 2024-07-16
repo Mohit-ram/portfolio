@@ -27,10 +27,10 @@ const Blog = () => {
             content={projectsInfo[1].info}
           />
           <BlogCard
-            key={projectsInfo[2].Id}
-            image={projectsInfo[2].imgPath}
-            title={projectsInfo[2].title}
-            content={projectsInfo[2].info}
+            key={projectsInfo[0].Id}
+            image={projectsInfo[0].imgPath}
+            title={projectsInfo[0].title}
+            content={projectsInfo[0].info}
           />
         </div>
       </div>
