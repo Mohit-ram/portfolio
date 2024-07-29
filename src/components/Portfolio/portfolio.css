@@ -1,3 +1,12 @@
-.best-card-text:hover{
-    color:rgb(116, 193, 238) !important;
+
+.card-img-top{
+    height: 200px;
+    width: 'auto'; 
+    display: block;
 }
+/* .card{
+    width :200px ;
+} */
+ .nav-link:hover{
+    color:rgb(236, 156, 103) !important;
+ }

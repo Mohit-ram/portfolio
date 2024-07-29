@@ -1,51 +1,47 @@
-import img06 from "./mainImg006.png"
-import img07 from "./mainImg007.jpg"
-import img03 from "./mainImg003.png"
-import img05 from "./mainImg005.png"
+import img23 from "./mainImg023.png"
+import img24 from "./mainImg024.png"
+import img15 from "./mainImg015.png"
+import img25 from "./mainImg025.png"
 
 const projectsInfo = [
-  {
-    Id: 6,
-    number: "006",
-    title: "Object tracking with yolo",
-    info: "Object detection and tracking objects throughout frames only using YOLO",
-    subInfo: "ObjectTrackin ComputerVision OpenCV Yolov8 ",
-    imgPath: img06,
-    category: "cat-a",
-    dataSource: "pixabay",
+  {Id: 23,
+    number: "023",
+    title: "Contextual Q&A Chat with AI, End-to-End App",
+    info: "A AI app that answers based on provided context via pdfs and with chat history.",
+    subInfo: "Langchain, History Retreivers,streamlit, HuggingFace, GroQ, Llama",
+    imgPath: img23,
+    category: "cat-d",
+    dataSource: "https://contextualqnaai-k4kibvvy8vspmxwbsx9vfv.streamlit.app/)",
+  },
+  {Id: 24,
+    number: "024",
+    title: "WebPage Summary AI app",
+    info: "Summarizing valid web page and deploying into cloud , using Langchain, Gemma, streamlit. ",
+    subInfo: "End-To-End, Summarize Chain, Unstructure Loader, Groq ",
+    imgPath: img24,
+    category: "cat-d",
+    dataSource: "https://texsummarylc-zqmbbyxqndscfy3xr7nzyp.streamlit.app/"   
+    ,
   },
   {
-    Id: 3,
-    number: "003",
-    title: "Handwritten Digit Recognition",
-    info: "Handwritten digit recognition, exploring deep learning techniques from data preprocessing to model architecture and regularization",
-    subInfo:
-      "Multi-class Image classification, CNN, overfitting, Regularisation PerformaceCurves" ,
-    imgPath:img03,
+    Id: 15,
+    number: "015",
+    title: "NLP: End-to-End Sentiment prediction using RNN",
+    info: "Build and deploy a sentiment analysis model using the IMDB movie reviews dataset, classifying reviews as positive or negative with a Recurrent Neural Network (RNN).",
+    subInfo: "End-to-End, Deploy, RNN, Embedding vector, PadSequences, Streamlit",
+    imgPath: img15,
     category: "cat-b",
-    dataSource: "https://www.kaggle.com/competitions/digit-recognizer",
+    dataSource: "link",
   },
-  {
-    Id: 7,
-    number: "007",
-    title: "Wildlife Detection with YOLOv8 and Ultralytics",
-    info: "Object detection using YOLOv8 and the Ultralytics datasets. Fine-tune the model on an “african-wildlife” dataset and perform inference on sample images.",
-    subInfo:
-      "Obeject Detection, Google Colab, Yolov8, Ultralytics Dataset, Yolo metrics, mAP50.",
-    imgPath: img07,
-    category: "cat-c",
-    dataSource: "https://docs.ultralytics.com/",
-  },
-  {
-    Id: 5,
-    number: "005",
-    title: "Cat or Dog a transfer learning approach",
-    info: "A Inceptionv3 model based classification of cats or dogs in an image. ",
-    subInfo:"Binary Calssification, Transfer Learning, tf datasets, Autotune, ImagesFromDirectories.",
-    imgPath:img05,
-    category: "cat-b",
-    dataSource: "https://www.kaggle.com/c/dogs-vs-cats",
-  },
+  {Id: 25,
+    number: "025",
+    title: "Youtube Video Summary AI app",
+    info: "Summarizing a valid youtube and deploying into cloud , using Langchain, Gemma, streamlit. ",
+    subInfo: "End-To-End, Summarize Chain, YT Loader, Groq",
+    imgPath: img25,
+    category: "cat-d",
+    dataSource: "link",
+  }
 ];
 
 
