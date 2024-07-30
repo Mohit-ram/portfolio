@@ -1,6 +1,17 @@
 import React from "react";
 import BlogCard from "./BlogCard";
-import dappInfo from "../../assets/projectInfo/deployed-apps.js";
+import dappInfo from "../../assets/projectInfo/apps-deployed.js";
+
+function createcard(dapp) {
+  return (
+    <BlogCard
+    key={dapp.Id}
+    title={dapp.title}
+    link={dapp.appLink}
+    number={dapp.prjNumber}
+    />
+  );
+}
 
 const Blog = () => {
   return (
@@ -13,24 +24,8 @@ const Blog = () => {
       </div>
       <div className="container mt-4 pb-5">
         <div className="row row-cols-1    mx-2 mb-5">
-          <BlogCard
-            key={dappInfo[2].Id}
-            title={dappInfo[2].title}
-            content={dappInfo[2].info}
-            link={dappInfo[2].applink}
-          />
-          <BlogCard
-            key={dappInfo[1].Id}
-            title={dappInfo[1].title}
-            content={dappInfo[1].info}
-            link={dappInfo[1].applink}
-          />
-          <BlogCard
-            key={dappInfo[0].Id}
-            title={dappInfo[0].title}
-            content={dappInfo[0].info}
-            link={dappInfo[1].applink}
-          />
+          {dappInfo.map(createcard)}
+          
         </div>
       </div>
     </section>

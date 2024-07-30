@@ -1,57 +1,32 @@
 import React from "react";
+import image from "../../assets/images/card.png"
 
-const BlogCard = ({ title, content, number, link }) => {
+
+
+const BlogCard = ({ title, link, number }) => {
   return (
-    // <div className="col-md-4">
-    //         <div className="card">
+    <div className="col-lg-3">
+      <div
+        className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+        style={{backgroundImage: 'url(' + image + ')', backgroundSize:'cover'} }
+      >
 
-    //           <img className="card-img-top img-fluid" style={{height:'300px', maxWidth: '400px'}} src={image} alt="Card image cap" />
-    //           <div className="card-body" >
-    //             <h5 className="card-title">{title}</h5>
-    //             <p className="card-text " style={{height:'100px', maxWidth: '400px'}}>{content}</p>
-    //             <a target='_blank' href="https://mohit-ram.github.io/my-blog/" className="btn my-button btn-primary">
-    //               Go to Blog
-    //             </a>
-    //           </div>
-    //         </div>
-    //       </div>
-    // <div class="col-md-3">
-    //   <div class="card mb-4 box-shadow">
-    //     <img class="card-img-top" alt="Thumbnail [100%x225]" src={image} />
-    //     <div class="card-body">
-    //       <h6 className="card-title" style={{height:'40px', maxWidth: 'auto'}}>{title}</h6>
-    //       <div class="d-flex justify-content-between align-items-center">
-    //         <div class="btn-group">
-    //           <a
-    //             target="_blank"
-    //             href={`https://mohit-ram.github.io/my-blog/src/projects/project${number}/project${number}.html`}
-    //             className="btn my-button btn-primary"
-    //           >
-    //             Go to Page
-    //           </a>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
-
-    <div className="app-card col-md-4">
-      <h2>{title}</h2>
-      <div className="app-info">
-        <p>{content}</p>
+        <div className="d-flex flex-column h-100 p-4 pb-4 best-card-text text-white text-shadow-1">
+          <h2 className="pt-2 mt-2 mb-2 lh-1 fw-bold ">{title}</h2>
+          <ul className="d-flex list-unstyled mt-auto">
+            <li className=" me-auto">
+              <a target='_blank' href={link} className="btn my-button btn-sm btn-primary">
+                OpenApp
+              </a>
+              </li>
+              <li className="me-auto">
+              <a target='_blank' href={`https://mohit-ram.github.io/my-blog/src/projects/project${number}/project${number}.html`} className="btn my-button btn-sm btn-primary mx-3">
+                OpenProject
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <p>
-        <a target="_blank" href={link} className="btn my-button btn-primary">
-          Go to App
-        </a>
-        <a
-          target="_blank"
-          href={`https://mohit-ram.github.io/my-blog/src/projects/project${number}/project${number}.html`}
-          className="btn my-button btn-primary"
-        >
-          Go to Project
-        </a>
-      </p>
     </div>
   );
 };

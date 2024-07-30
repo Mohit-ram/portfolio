@@ -20,27 +20,7 @@ const PortfolioCard = ({ image, title, number }) => {
     //     </div>
     //   </div>
     // </div>
-    // <div className="col-md-3">
-    //   <div className="card">
-    //     <div className="card-img-top"><img
-    //       className= " img-fluid"
-
-    //       src={image}
-    //       alt="Card image cap"
-    //     /></div>
-    //     <div className="card-body">
-    //       <h5 className="card-title">{title}</h5>
-    //       {/* <p className="card-text " style={{height:'100px', maxWidth: '400px'}}></p> */}
-    //       <a
-    //         target="_blank"
-    //         href={`https://mohit-ram.github.io/my-blog/src/projects/project${number}/project${number}.html`}
-    //         className="btn my-button btn-primary"
-    //       >
-    //         Go to Blog
-    //       </a>
-    //     </div>
-    //   </div>
-    // </div>
+    
 
     <div class="col-md-3">
       <div class="card mb-4 box-shadow">

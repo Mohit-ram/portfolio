@@ -3,6 +3,7 @@ import img24 from "./mainImg024.png"
 import img15 from "./mainImg015.png"
 import img25 from "./mainImg025.png"
 
+
 const projectsInfo = [
   {Id: 23,
     number: "023",
